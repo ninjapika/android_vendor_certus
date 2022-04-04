@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/lib64/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.audio@5.1.so \
     vendor/xiaomi/certus/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/xiaomi/certus/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
-    vendor/xiaomi/certus/proprietary/framework/xiaomi/certus/-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/xiaomi/certus/-legacy.jar \
+    vendor/xiaomi/certus/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar \
     vendor/xiaomi/certus/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
     vendor/xiaomi/certus/proprietary/lib/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma.so \
     vendor/xiaomi/certus/proprietary/lib/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_adapt.so \
@@ -1299,8 +1299,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     mediatek-common \
     mediatek-framework \
-    xiaomi/certus/-base \
-    xiaomi/certus/-common \
+    mediatek-ims-base \
+    mediatek-ims-common \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common
